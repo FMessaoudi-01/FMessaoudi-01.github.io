@@ -7,7 +7,7 @@ Greetings, Humans;
 
 This is Fatma Messaoudi, I go by Alienbot which is a rather cool alias my younger self came up with when I first stepped into the realm of cybersecurity about six years ago.
 
-This space is where I share my Cybersecurity and Web3 Security Projects [Cybersecurity Projects](http://localhost:4000/projects/){: .btn .btn--primary} not as tutorials, but as evidence of how I think.
+This space is where I share my Cybersecurity and Web3 Security Projects [Cybersecurity Projects](https://fmessaoudi-01.github.io/projects){: .btn .btn--primary} not as tutorials, but as evidence of how I think.
 
 I hold a Master’s Degree in Computer Science (Networks and Information Systems), but that never stopped me from keeping my passion alive and teaching myself cybersecurity — from ethical hacking to blue team operations. Along the way, I’ve earned certifications from TCM Security, EC-Council, Fortinet, and Security Blue Team, and ranked in the top 1% on TryHackMe.
 
