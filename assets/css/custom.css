@@ -1,0 +1,240 @@
+/* === GLOBAL NEON CYBERPUNK THEME OVERRIDES === */
+
+/* Background and base text color */
+body {
+  background-color: #050505 !important;
+  color: #c8f5e5 !important;
+  font-family: "JetBrains Mono", monospace !important;
+}
+
+/* Page content blocks */
+.page__content,
+.archive__item,
+article {
+  background-color: #0b0b0b !important;
+  border: 1px solid rgba(0,255,204,0.05);
+  box-shadow: 0 0 15px rgba(0,255,204,0.03);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #00ffcc !important;
+  text-shadow: 0 0 10px rgba(0,255,204,0.1);
+}
+
+/* Links */
+a {
+  color: #00ffcc !important;
+  text-decoration: none !important;
+  transition: color 0.15s ease, text-shadow 0.15s ease;
+}
+a:hover {
+  color: #80fff0 !important;
+  text-shadow: 0 0 10px rgba(0,255,204,0.25);
+}
+
+/* Navbar & footer */
+.masthead, .site-footer {
+  background: #050505 !important;
+  border-top: 1px solid rgba(0,255,204,0.08);
+  border-bottom: 1px solid rgba(0,255,204,0.08);
+}
+
+/* Sidebar text and links */
+.sidebar {
+  background: #060606 !important;
+  color: #bdf8e5 !important;
+}
+.sidebar a { color: #00ffcc !important; }
+
+/* Inline code, code blocks */
+code, pre {
+  background: rgba(0,255,204,0.05) !important;
+  color: #80fff0 !important;
+  font-family: "JetBrains Mono", monospace !important;
+  border: 1px solid rgba(0,255,204,0.05);
+  border-radius: 4px;
+}
+
+/* Horizontal rules */
+hr { border: none; border-top: 1px dashed rgba(0,255,204,0.1); }
+
+/* === END GLOBAL OVERRIDES === */
+
+/* assets/css/custom.css - small neon style for project lists */
+.project-steps { list-style: none; padding: 0; margin: 0; }
+.project-steps li {
+  padding: 0.9rem 0;
+  border-bottom: 1px dashed rgba(0,255,204,0.08);
+  display: block;
+}
+.project-steps a {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 600;
+  color: #00ffcc;
+  text-decoration: none;
+  text-shadow: 0 0 8px rgba(0,255,204,0.08);
+}
+.project-steps a:hover {
+  text-shadow: 0 0 18px rgba(0,255,204,0.25);
+  transform: translateX(4px);
+}
+.project-steps .excerpt {
+  color: #cbd5e0;
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+}
+.muted { color: #8a8f94; font-size: 0.9rem; margin-left: 0.6rem; }
+
+/* Force a neon-ish look for project lists */
+.project-steps { list-style: none; padding: 0; margin: 0; }
+.project-steps li { padding: 0.9rem 0; border-bottom: 1px dashed rgba(0,255,204,0.06); }
+.project-steps a {
+  font-family: "JetBrains Mono", monospace !important;
+  font-weight: 600 !important;
+  color: #00ffcc !important;
+  text-decoration: none !important;
+  text-shadow: 0 0 10px rgba(0,255,204,0.08) !important;
+}
+
+
+/* Projects grid (add to assets/css/custom.css) */
+.projects-grid { display:flex; flex-wrap:wrap; gap:1rem; margin-top:1rem; }
+.project-card { width:320px; background:#0b0b0b; border:1px solid rgba(0,255,204,0.06); border-radius:8px; overflow:hidden; box-shadow:0 6px 18px rgba(0,0,0,0.6); transition:transform .12s ease, box-shadow .12s ease; }
+.project-card:hover { transform:translateY(-6px); box-shadow:0 14px 40px rgba(0,255,204,0.06); }
+.card-link { display:flex; text-decoration:none; color:inherit; }
+.card-thumb img { width:120px; height:120px; object-fit:cover; display:block; }
+.card-body { padding:0.9rem; font-family:"JetBrains Mono", monospace; }
+.card-body h3 { margin:0 0 0.35rem; color:#00ffcc; text-shadow:0 0 8px rgba(0,255,204,0.06); }
+.card-desc { margin:0.25rem 0 0; color:#cbd5e0; font-size:0.95rem; }
+
+/* === HEADER & NAV FIXES === */
+.masthead,
+.masthead__inner-wrap,
+.nav__list,
+.greedy-nav,
+.greedy-nav .visible-links {
+  background-color: #050505 !important;
+  border: none !important;
+  box-shadow: 0 0 12px rgba(0,255,204,0.05) inset;
+}
+
+/* Navbar links */
+.greedy-nav a,
+.greedy-nav .visible-links a,
+.nav__list a {
+  color: #00ffcc !important;
+  text-shadow: 0 0 8px rgba(0,255,204,0.1);
+  font-weight: 600;
+  transition: text-shadow 0.2s ease, color 0.2s ease;
+}
+
+/* Navbar links hover glow */
+.greedy-nav a:hover,
+.greedy-nav .visible-links a:hover,
+.nav__list a:hover {
+  color: #80fff0 !important;
+  text-shadow: 0 0 15px rgba(0,255,204,0.6);
+}
+
+/* Active nav item (optional subtle glow) */
+.greedy-nav a.active,
+.greedy-nav .visible-links a.active {
+  color: #00ffee !important;
+  text-shadow: 0 0 12px rgba(0,255,204,0.4);
+}
+
+/* === FOOTER FIXES === */
+.site-footer {
+  background-color: #050505 !important;
+  border-top: 1px solid rgba(0,255,204,0.1);
+  color: #aef5e5 !important;
+  text-align: center;
+  box-shadow: 0 -2px 15px rgba(0,255,204,0.05) inset;
+}
+
+/* Footer links */
+.site-footer a {
+  color: #00ffcc !important;
+  text-shadow: 0 0 6px rgba(0,255,204,0.1);
+  transition: text-shadow 0.2s ease, color 0.2s ease;
+}
+
+.site-footer a:hover {
+  color: #80fff0 !important;
+  text-shadow: 0 0 14px rgba(0,255,204,0.5);
+}
+
+/* === SIDEBAR ("On This Page") FIX === */
+.sidebar,
+.toc,
+.toc__menu,
+.toc__menu li,
+.toc__menu a {
+  background: #060606 !important;
+  color: #bdf8e5 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.toc__menu a {
+  color: #00ffcc !important;
+  text-shadow: 0 0 6px rgba(0,255,204,0.08);
+  font-weight: 600;
+  transition: text-shadow 0.2s ease, color 0.2s ease;
+}
+
+.toc__menu a:hover {
+  color: #80fff0 !important;
+  text-shadow: 0 0 12px rgba(0,255,204,0.5);
+}
+
+/* Sidebar headings */
+.sidebar h2,
+.sidebar h3 {
+  color: #00ffcc !important;
+  text-shadow: 0 0 10px rgba(0,255,204,0.1);
+}
+
+/* Remove light gray line or padding around TOC */
+.sidebar__right {
+  background: #050505 !important;
+  border-left: 1px solid rgba(0,255,204,0.05) !important;
+  padding-left: 1rem !important;
+}
+
+/* === FOOTER DEEP FIX === */
+.page__footer,
+.page__footer-follow,
+.page__footer-copyright,
+.page__footer-nav {
+  background-color: #050505 !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #aef5e5 !important;
+}
+
+/* Remove any white line at bottom */
+body::after {
+  background: #050505 !important;
+}
+
+/* Footer layout and glow */
+.page__footer a {
+  color: #00ffcc !important;
+  text-shadow: 0 0 6px rgba(0,255,204,0.1);
+  transition: text-shadow 0.2s ease, color 0.2s ease;
+}
+
+.page__footer a:hover {
+  color: #80fff0 !important;
+  text-shadow: 0 0 14px rgba(0,255,204,0.5);
+}
+
+/* Optional: footer top separator glow */
+.page__footer {
+  border-top: 1px solid rgba(0,255,204,0.08) !important;
+  box-shadow: 0 -4px 20px rgba(0,255,204,0.05) inset !important;
+}
