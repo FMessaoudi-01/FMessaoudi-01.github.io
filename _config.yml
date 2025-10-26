@@ -67,7 +67,7 @@ plugins:
 author:
   name   : "Fatma Messaoudi"
   avatar : "/assets/images/avatar.png"
-  bio    : "Junior Cybersecurity Engineer on a forever learning journey."
+  bio    : "Cybersecurity Engineer on a forever learning journey."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
